@@ -9,5 +9,19 @@ body{
     width: 100%;
 }
 .logo{
-    position: absolute;
+    float: left;
+    clear: both;
+}
+.boxes{
+    float: left;
+    clear: right;
+    width: 20%;
+}
+.box{
+    display: inline-block;
+    margin: 1%;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 25%;
 }
